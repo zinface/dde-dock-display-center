@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=dock栏居中配置
+Comment=
+Type=Application
+Exec=gsettings set com.deepin.dde.dock display-mode 'classic' 
+Icon=configuration
+Categories=Utility
+Keywords=
+
+# Generated from the DesktopGenerater component of the z-Tools toolkit
