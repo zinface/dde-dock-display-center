@@ -1,9 +1,10 @@
 [Desktop Entry]
 Version=1.0
-Name=dock栏居中配置
+Name=dde-dock-display-center
+Name[zh_CN]=dock栏居中配置(dde)
 Comment=
 Type=Application
-Exec=gsettings set com.deepin.dde.dock display-mode 'classic' 
+Exec=/usr/share/dde-dock-display-center/dde-dock-reset-display.sh
 Icon=configuration
 Categories=Utility
 Keywords=

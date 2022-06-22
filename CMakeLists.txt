@@ -8,6 +8,11 @@ set(CMAKE_INSTALL_PREFIX "/usr")
 install(FILES dde-dock-display-center.desktop
     DESTINATION share/applications
 )
+# 设置 '重新设居中显示' 的脚本安装位置
+install(PROGRAMS dde-dock-reset-display.sh
+    DESTINATION share/dde-dock-display-center
+    PERMISSIONS 
+)
 
 find_package(DebPackage PATHS ${CMAKE_SOURCE_DIR})
 add_package_descript(cmake/package-deb.descript)

@@ -7,8 +7,10 @@
 
 
 ```bash
-# 内部执行指令:
-gsettings set com.deepin.dde.dock display-mode 'classic' 
+# 内部执行指令(旧):
+# gsettings set com.deepin.dde.dock display-mode 'classic' 
+# 内部执行指令，解决设置居中时效果为时尚居中问题，并附带dock重启功能(新): 
+/usr/share/dde-dock-display-center/dde-dock-reset-display.sh
 ```
 
 # 截图效果
